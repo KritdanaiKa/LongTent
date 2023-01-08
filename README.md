@@ -53,9 +53,15 @@ Requirements มาจากสมาชิกภายในกลุ่ม [�
 
 
 # CRUD:C Create
-
+![Home - Computure](https://github.com/KritdanaiKa/LongTent/blob/main/LongTentPictue/C1.png)
+![Home - Computure](https://github.com/KritdanaiKa/LongTent/blob/main/LongTentPictue/C2.png)
+![Home - Computure](https://github.com/KritdanaiKa/LongTent/blob/main/LongTentPictue/C3.png)
+![Home - Computure](https://github.com/KritdanaiKa/LongTent/blob/main/LongTentPictue/C4.png)
+![Home - Computure](https://github.com/KritdanaiKa/LongTent/blob/main/LongTentPictue/C5.png)
 # CRUD:R Read
-
+![Home - Computure](https://github.com/KritdanaiKa/LongTent/blob/main/LongTentPictue/R1.png)
+![Home - Computure](https://github.com/KritdanaiKa/LongTent/blob/main/LongTentPictue/R2.png)
+![Home - Computure](https://github.com/KritdanaiKa/LongTent/blob/main/LongTentPictue/R3.png)
 # CRUD:U Update 
 
 # CRUD:D Delete
