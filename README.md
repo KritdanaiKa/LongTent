@@ -20,9 +20,13 @@ Requirements มาจากสมาชิกภายในกลุ่ม [�
 
 # Responsive Website Design
 เราสามารถแบ่งการรองรับ Responsive ได้ 3 รูปแบบ ได้แก่<br />
-1. รูปแบบ Computer ![Home - Computure](https://github.com/KritdanaiKa/LongTent/blob/main/LongTentPictue/Home-Computer.PNG?raw=true)
+1. รูปแบบ Computer ![Home - Computure](https://github.com/KritdanaiKa/LongTent/blob/main/LongTentPictue/Home%20-%20Computer.PNG)
 2. รูปแบบ Ipad Air<br />
-2.1 แนวตั้ง 
+2.1 แนวตั้ง<br /> ![Home - Ipad1](https://github.com/KritdanaiKa/LongTent/blob/main/LongTentPictue/Home%20-%20Ipad%20%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87.PNG) <br />
+2.2 แนวนอน<br /> ![Home - Ipad2](https://github.com/KritdanaiKa/LongTent/blob/main/LongTentPictue/Home%20-%20Ipad%20%E0%B8%99%E0%B8%AD%E0%B8%99.PNG) <br />
+3. รูปแบบ Iphone 12 Pro<br />
+3.1 แนวตั้ง<br /> ![Home - Iphone1](https://github.com/KritdanaiKa/LongTent/blob/main/LongTentPictue/Home%20-%20Iphone%20%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87.PNG) <br />
+3.2 แนวนอน<br /> ![Home - Iphone2](https://github.com/KritdanaiKa/LongTent/blob/main/LongTentPictue/Home%20-%20Iphone%20%E0%B8%99%E0%B8%AD%E0%B8%99.PNG) <br />
 
 # Bootstrap 5
 
