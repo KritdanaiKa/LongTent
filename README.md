@@ -19,6 +19,10 @@ Requirements มาจากสมาชิกภายในกลุ่ม [�
 # CRUD:D Delete
 
 # Responsive Website Design
+เราสามารถแบ่งการรองรับ Responsive ได้ 3 รูปแบบ ได้แก่<br />
+1. รูปแบบ Computer ![Home - Computure](https://github.com/KritdanaiKa/LongTent/blob/main/LongTentPictue/Home-Computer.PNG?raw=true)
+2. รูปแบบ Ipad Air<br />
+2.1 แนวตั้ง 
 
 # Bootstrap 5
 
