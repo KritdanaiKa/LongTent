@@ -3,7 +3,8 @@
 # Description
 หลงเต็นปักษ์ใต้ บริการจองลานกางเต็นท์และที่พักรูปแบบต่างๆที่ทำให้คุณได้ใกล้ชิดกับธรรมชาติที่เข้ามาทำให้ประสบการณ์การแคมป์ของคนไทยดีกว่าที่เคยมี คุณสามารถค้นหาลานกางเต็นท์พร้อมข้อมูลที่พักและบริการต่างๆที่คุณถูกใจได้เลยบนเว็บไซต์
 # Requirements
-Requirements มาจากสมาชิกภายในกลุ่ม
+Requirements มาจากสมาชิกภายในกลุ่ม [หลงเต็นท์ - LongTent camping club Thailand](https://www.google.com/url?sa=t&source=web&rct=j&url=https://m.facebook.com/groups/510213325834810/&ved=2ahUKEwivkYL6ubf8AhVRleYKHTteCcAQFnoECBEQAQ&usg=AOvVaw3gIYXAqrPwcDceN_9i3G24) 
+หลักๆที่น่าสนใจคือ สมาชิกบางส่วนมักสอบถามเรื่องลานกางเต็นท์ที่รองรับรถบ้าน ทำให้ผู้จัดทำสนใจในประเด็นนี้
 # CRUD:C Create
 
 # CRUD:R Read
