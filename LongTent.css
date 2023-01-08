@@ -1,0 +1,85 @@
+body {
+    background-image: url(http://cdn.shopify.com/s/files/1/0565/7080/6458/collections/Forest_Jungle_Wallpaper.jpg?v=1660124648);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 16px;
+    font-family: "Kanit",Helvetica,Arial,sans-serif;
+    color: #a2a6ae;
+}
+
+.toast-header {
+    background-color: #512c1c;
+    color: #ffffff;
+}
+
+.card-header {
+    background-color: #512c1c;
+    color:aliceblue
+}
+
+.Detail-Locate {
+    color: #005312;
+}
+
+label {
+    color: #005312;
+}
+
+.modal-footer {
+    background-color: #ffffff;
+}
+
+#Warning {
+    color: red;
+}
+
+#Warning2 {
+    color: rgb(0, 143, 76);
+}
+
+.navbar {
+    background-color: #512c1c;
+}
+
+footer{
+    background-image: url(https://www.khaoyainationalpark.com/application/themes/kos/images/photo_foot.png);
+    width: 100%;
+    height: 380px;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+}
+
+.card:hover {
+    box-shadow: #256936 5px 5px;
+}
+
+.detail {
+    margin-top: 10rem;
+    position: relative;
+    bottom: auto;
+    background-color: #256936
+}
+
+.Listof {
+    color: #008006;
+    font-size: 20px;
+    padding: 1%;
+}
+
+h3 {
+    color: #512c1c;
+}
+
+.Progress-label {
+    color: #256936;
+}
+
+.modal-title {
+    color: aliceblue;
+}
+
+.modal-header {
+    background-color: #512c1c;
+}
+

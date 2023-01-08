@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>หน้าหลัก | หลงเต้นท์ปักษ์ใต้</title>
+    <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Google+Sans:400,500,700|Google+Sans+Text:400&amp;lang=en">
+    <link rel="icon" type="img/png" href="https://cdn-icons-png.flaticon.com/512/7814/7814481.png">
+    <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Google+Sans+Text:400&amp;text=%E2%86%90%E2%86%92%E2%86%91%E2%86%93&amp;lang=en">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark scrolling_up">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">LongTent</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarLongTent" aria-controls="navbarLongTent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarLongTent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#BookingModal">Booking</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Rule</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#AdviceModal">Advice</a>
+              </li>
+            </ul>
+            <form class="d-flex g-2 align-items-center">
+                <span class="me-1" style="color: aliceblue;">History</span>
+                <input type="email" class="form-control ms-1 " id="emailcheck" placeholder="Email">
+                <input type="password" class="form-control ms-1 " id="telcheck" placeholder="Telephone Number">
+                <button class="btn btn-outline-success ms-1" id="checkhistory" data-bs-toggle="modal" data-bs-target="#HistoryModal" type="button">Check</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+    <div class="contianer" style="background-color: rgba(250, 235, 215, 0.568);">
+      <div class="row col-12 justify-content-center align-content-center">
+        <div class="col-lg-4 col-md-6 col-sm-6 "><img src="https://th.readme.me/f/39184/61a07bfb524a2829ae78500d.jpg" alt="" class="w-100"></div>
+        <div class="col-lg-8 p-lg-2 my-auto text-center">
+          <h3 >หลงเต้นท์ปักษ์ใต้</h3>
+          <p style="color: #003100;">หลงเต็นปักษ์ใต้ บริการจองลานกางเต็นท์และที่พักรูปแบบต่างๆที่ทำให้คุณได้ใกล้ชิดกับธรรมชาติที่เข้ามาทำให้ประสบการณ์การแคมป์ของคนไทยดีกว่าที่เคยมี คุณสามารถค้นหาลานกางเต็นท์พร้อมข้อมูลที่พักและบริการต่างๆที่คุณถูกใจได้เลยบนเว็บไซต์</p>
+        </div>
+      </div>
+      <div class="row col-12 justify-content-center m-0 align-content-center">
+        <div class="col-lg-4 col-md-4 col-sm-4 m-0  p-0"><img src="https://www.eurekacamping.com/sites/eurekacamping_site/files/tent-camping-at-sunset.jpg" alt="" class="w-100 h-75"></div>
+        <div class="col-lg-4 col-md-4 col-sm-4 m-0 p-0"><img src="https://sgp1.digitaloceanspaces.com/adaybulletin/2020/08/body-Feature-camping6-1024x683.jpg" alt="" class="w-100 h-75"></div>
+        <div class="col-lg-4 col-md-4 col-sm-4 m-0  p-0"><img src="https://www.ktc.co.th/pub/media/Article/equipment-camping1448x543.webp" alt="" class="w-100 h-75"></div>
+      </div>
+      <div class="col-lg-12 mb-4 p-lg-2 my-auto text-center">
+        <h3 >แคมป์ปิ้ง</h3>
+        <p style="color: #003100;">กิจกรรมหนึ่งที่ห้ามพลาดเมื่อมาถึงเขาใหญ่ในฤดูหนาว คือการตั้งแคมป์ท่ามกลางธรรมชาติ  โอบล้อมไปด้วยป่าไม้และสายน้ำ เหมาะสำหรับใครที่ต้องการหลบหนีความวุ่นวายในเมือง หรือใช้เวลาในวันหยุดกับคนรู้ใจ ในช่วงเวลากลางคืน เมื่อท้องฟ้ามืดสนิท ไม่มีแสงสีรบกวน เราจะได้เห็นดวงดาวนับล้านพร่างพราวเต็มท้องฟ้า</p>
+        <p style="color: #003100;">ปัจจุบันอุทยานแห่งชาติเขาใหญ่เปิดให้บริการลานกางเต็นท์ 1 แห่ง คือ สถานที่กางเต็นท์ลำตะคอง  เป็นสนามหญ้าเปิดโล่งขนาดใหญ่ริมแม่น้ำ มักพบเห็นนากว่ายน้ำในแม่น้ำเป็นประจำ ต้นไม้โดยรอบ เป็นที่อยู่อาศัยของลิงและชะนี และสามารถพบเห็นเหล่ากวางป่าเดินออกมาหากินได้ แม้ว่าจะอยู่ใกล้ชิดธรรมชาติขนาดนี้ แต่ก็มีสิ่งอำนวยความสะดวกครบครัน</p>
+      </div>
+      <div class="row col-12 justify-content-center m-0 align-content-center">
+        <div class="col-lg-4 col-md-4 col-sm-4 m-0   p-0"><img src="https://sgp1.digitaloceanspaces.com/adaybulletin/2020/08/WEB-Feature-camping.jpg" alt="" class="w-100 h-75"></div>
+        <div class="col-lg-4 col-md-4 col-sm-4 m-0 p-0"><img src="https://s359.kapook.com/pagebuilder/c9e3ae91-aea7-489f-bdd9-7f31a54254b2.jpg" alt="" class="w-100 h-75"></div>
+        <div class="col-lg-4 col-md-4 col-sm-4 m-0  p-0"><img src="http://f.ptcdn.info/634/036/000/nwlnuxdco1Hhx5q0KDM-o.jpg" alt="" class="w-100 h-75"></div>
+      </div>
+      <div class="col-lg-12 mb-4 p-lg-2 my-auto">
+        <h3 class="text-center ">การใช้บริการ</h3>
+        <ul>
+          <li class="Listof ms-2">ลงทะเบียนจองลานกางเต็นท์ผ่านระบบออนไลน์ หรือเดินทางมาติดต่อด้วยตนเองที่ลานกางเต็นท์ กรณี ลานกลางเต็นท์ยังไม่เต็มจำนวนการจอง ซึ่งแนะนำให้จองก่อนเวลาเที่ยงของวันดังกล่าว</li>
+          <li class="Listof ms-2">ชำระค่าธรรมเนียมการเช่าพื้นที่กางเต็นท์ ณ ที่ทำการลานกางเต็นท์</li>
+          <li class="Listof ms-2">สามารถจองล่วงหน้าได้ 60 วัน และจองต่อเนื่องได้ครั้งละ 3 วัน</li>
+          <li class="Listof ms-2">ไม่อนุญาตให้กางเต็นท์นอกพื้นที่ที่เปิดให้บริการ</li>
+        </ul>
+      </div>
+      
+      <div class="card mb-4" style="max-width: 540px;">
+        <div class="row g-0 align-items-center">
+          <div class="col-md-4">
+            <img src="https://scontent.fbkk20-1.fna.fbcdn.net/v/t39.30808-6/322693811_1632127837229359_2574782982168820032_n.jpg?_nc_cat=1&ccb=1-7&_nc_sid=8631f5&_nc_eui2=AeFKE82mVRI9ZD3w7Epf_42PnbgI2O8PTNOduAjY7w9M06AZaVMGQBG2J4vZS7eTDSvxxjHHg0TYVnlcqpFfQwn_&_nc_ohc=sk0icqr1AmQAX__qNzH&_nc_oc=AQnJ2APwiI2OAKwMs8kXxeRn6aIZfYWTWxLBPRw1OD1hK8nIDS7SZdWgd8ct1ag18Qg&_nc_ht=scontent.fbkk20-1.fna&oh=00_AfCCJK0iSudJP3cO775NFKcceAfOzykAO2W7_u6wmMXT4w&oe=63BEDE4B" class="img-fluid rounded-start" alt="">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">ช่องทางติดต่อ</h5>
+              <p class="card-text">กลุ่มหลงเต็นท์ เกิดมาจาก กลุ่มคนที่ รักในการท่องเที่ยวแบบกางเต็นท์ รักในการไปเที่ยวด้วยกัน เฮฮาไร้สาระ ตามสไตล์หลงเต็นท์ ไม่มีข้อจำกัดใดๆทั้งนั้น
+                ที่นี่สามารถพูดคุยได้ทุกเรื่อง โดยเฉพาะที่เกี่ยวกับการ Camping งดการเมืองและราชวงศ์ ใช้ภาษาสุภาพชนเท่านั้น</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+        <div class="container-fluid"> 
+            <div class="row"> 
+                <div class="bg mb-3">
+                </div> 
+                <div class="detail text-center ms-auto me-auto"> 
+                    <div class="footer-address col-md-4 ms-auto me-auto"> 
+                        <p>หลงเต้นท์ปักษ์ใต้<br>
+                             ที่อยู่ : 222 ตำบลไทยบุรี อำเภอท่าศาลา จังหวัดนครศรีธรรมราช
+                             <br> อีเมล :LongTent@gmail.com</p> 
+                        <p>สอบถามข้อมูล/ติดต่อราชการ<br>
+                             เวลา 08.30-16.30 น.<br>
+                              ที่ทำการท่าศาลา<br>
+                               โทร : 063-945-1810</p> 
+                    </div> 
+                    <div class="footer-copy col-md-4 ms-auto me-auto"> 
+                        <p>© 2021 LongTent</p> 
+                        <p><span style="color:#39ffde;">Designed by LongTent DESIGN</span></p> 
+                    </div> 
+                </div> 
+            </div> 
+        </div> 
+    </footer>
+    <div class="modal  fade" id="AdviceModal" tabindex="-1" aria-labelledby="AdviceModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="AdviceModalLabel">Advice : ข้อแนะนำในการกางเต้นท์พักแรม</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="accordion" id="accordionAdvice">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        ควรเลือกสถานที่กางเต็นท์ไว้ล่วงหน้าก่อนการเดินทาง
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionAdvice">
+                        <div class="accordion-body">
+                            โดยปกติแล้วเลือกพื้นที่ที่เคยใช้ตั้งแคมป์มาแล้วเพื่อเป็นการป้องกันไม่ให้ขยายพื้นที่ตั้งแคมป์ออกไปอีกและหากเป็นการเดินทางครั้งแรกควรหัดกางเต็นท์ให้เป็นเสียก่อนที่จะเดินทางมิฉะนั้นอาจเสียเวลากางเต็นท์เป็นชั่วโมงหาที่กางเต็นท์ให้ได้ก่อนพระอาทิตย์ตกดินอย่างน้อย 1 ชั่วโมง เพื่อจะได้มีเวลากางเต็นท์ก่อนที่จะมืด
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading2">
+                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                            เลือกพื้นที่ตั้งแคมป์ที่มีแหล่งน้ำไหลผ่านเพียงพอและใช้พลาสติกปูรองเต็นท์เพื่อให้พื้นแห้ง
+                          </button>
+                        </h2>
+                        <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#accordionAdvice">
+                          <div class="accordion-body">
+                            โดยไม่ต้องขุดร่องระบายน้ำรอบเต็นท์ แต่ให้ตั้งเต็นท์ห่างจากแหล่งน้ำธรรมชาติอย่างน้อย 100 ฟุต
+                          </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading3">
+                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                            อย่ากางเต็นท์ใต้ต้นไม้ใหญ่
+                          </button>
+                        </h2>
+                        <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#accordionAdvice">
+                          <div class="accordion-body">
+                            เพราะถ้าฝนตกกิ่งไม้อาจหักลงมาหรือหากเกิดพายุฝนฟ้าคะนองอาจมอันตรายจากฟ้าผ่าลงกลางต้นไม้ ดังนั้นควรหาทำเลใต้ร่มเงาไม้ที่ไม่ใหญ่นัก และอยู่ห่างจากต้นไม้สูงๆ โดยคาดคะเนว่าหากไม้ใหญ่ล้ม เต็นท์จะอยู่ห่างจากรัศมีกิ่งไม้ของไม้ที่ล้มลงมา
+                          </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading4">
+                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                            อย่ากางเต็นท์ในที่โล่ง
+                          </button>
+                        </h2>
+                        <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#accordionAdvice">
+                          <div class="accordion-body">
+                            พยายามกางเต็นท์ใต้ลมบริเวณที่มีต้นไม้ เพราะถ้ามีลมแรง ลมอาจหอบเอาเต็นท์ปลิวไปทั้งหลัง
+                          </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading5">
+                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                            ไม่ควรกางเต็นท์อยู่บริเวณชายเขา
+                          </button>
+                        </h2>
+                        <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#accordionAdvice">
+                          <div class="accordion-body">
+                            เพราะหากฝนตกหนักน้ำจะไหลผ่านและถ้าหากน้ำเกิดไหลไม่หยุดจะมีน้ำมากจนเกิดอันตรายได้
+                          </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading6">
+                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                            อย่ากางเต็นท์ในทางน้ำไหลหรือลำธารที่แห้งแล้งเด็ดขาด
+                          </button>
+                        </h2>
+                        <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="heading6" data-bs-parent="#accordionAdvice">
+                          <div class="accordion-body">
+                            เพราะเมื่อฝนตกไหลบ่าลงลำธาร อาจจะเกิดน้ำไหลเต็มภายในไม่กี่นาที
+                          </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading7">
+                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+                            อย่ากางเต็นท์บริเวณที่มีหญ้ารกหรือน้ำเฉอะแฉะ
+                          </button>
+                        </h2>
+                        <div id="collapse7" class="accordion-collapse collapse" aria-labelledby="heading7" data-bs-parent="#accordionAdvice">
+                          <div class="accordion-body">
+                            เพราะอาจเป็นที่อยู่อาศัยของยุงและแมลง
+                          </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading8">
+                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+                            ก่อนกางเต็นท์ควรสังเกตพื้นที่บริเวณนั้น
+                          </button>
+                        </h2>
+                        <div id="collapse8" class="accordion-collapse collapse" aria-labelledby="heading8" data-bs-parent="#accordionAdvice">
+                          <div class="accordion-body">
+                            ว่าเป็นทางเดินของสัตว์หรือด่านสัตว์หรือเปล่าโดยสังเกตจากรอยเท้าในบริเวณนั้น ถ้าหากคิดว่าไม่ปลอดภัยควรหลีกเลี่ยง
+                          </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading9">
+                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
+                            ควรระวังสัตว์มีพิษต่างๆ พวกงู แมงป่อง ตะขาบ
+                          </button>
+                        </h2>
+                        <div id="collapse9" class="accordion-collapse collapse" aria-labelledby="heading9" data-bs-parent="#accordionAdvice">
+                          <div class="accordion-body">
+                            ซึ่งจะหาที่แห้งอยู่ตามในเต็นท์ ถุงนอน หรือรองเท้าที่ไม่ได้เก็บอย่างมิชิด ดังนั้น ก่อนสวมใส่หรือใช้งานควรตรวจตราให้ดี ถ้ามียากันแมลงหรือปูนขาวให้โรยไว้รอบเต็นท์
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-info" data-bs-dismiss="modal">รับทราบ</button>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="modal  fade" id="BookingModal" tabindex="-1" aria-labelledby="BookingModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="BookingModalLabel">Booking : จองพื้นที่กางเต็นท์ออนไลน์</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <strong >ขั้นตอนที่ 1 : เลือกสถานที่และโซนสำหรับกางเต้นท์</strong>
+                <hr>
+                <form>
+                    <div class="row mb-3">
+                        <label for="inputCamp" class="col-sm-2 col-form-label">Camp :</label>
+                        <div class="col-sm-10">
+                            <select id="inputCamp" class="form-select">
+                                <option selected>โปรดเลือกสถานที่...</option>
+                              </select>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="inputZone" class="col-sm-2 col-form-label">Zone :</label>
+                        <div class="col-sm-10">
+                            <select id="inputZone" class="form-select">
+                              </select>
+                        </div>
+                    </div>
+                </form>
+                <hr>
+                <strong class="Detail-Locate">รายละเอียด:</strong>
+                <p id="DetailLocate" ></p>
+                <hr>
+                <strong class="Detail-Locate">จำนวนที่รองรับ: </strong><span id="DetailZone"></span>
+                <hr>
+                <strong class="Detail-Locate">รถบ้าน: </strong><span id="DetailRV"></span>
+                <hr>
+                <h6 class="Progress-label">Progress :</h6>
+                <div class="progress">
+                    <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" id="progress1" role="progressbar" style="width: 0%;" aria-valuemin="0" aria-valuemax="100">0%</div>
+                  </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-info disabled" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#BookingDateModal" id="NextStep2" >Next</button>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="modal  fade" id="BookingDateModal" tabindex="-1" aria-labelledby="BookingDateModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="BookingDateModalLabel">Booking : จองพื้นที่กางเต็นท์ออนไลน์</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <strong >ขั้นตอนที่ 2 : เลือกวันเข้าใช้บริการและวันออก</strong>
+                <hr>
+                <strong class="Detail-Locate">Camp: </strong><span id="DetailCamp" ></span>
+                <hr>
+                <strong class="Detail-Locate">Zone: </strong><span id="DetailZones"></span>
+                <hr>
+                <form>
+                    <div class="row mb-3">
+                        <label for="inputEntry" class="col-sm-2 col-form-label">วันเข้าใช้บริการ :</label>
+                        <div class="col-sm-10">
+                            <input type="date" name="inputEntry" id="inputEntry" class="form-control">
+                        </div>
+                    </div>
+                    <div class="row mb-3" id="formExit">
+                        <label for="inputExit" class="col-sm-2 col-form-label">วันออก :</label>
+                        <div class="col-sm-10">
+                            <input type="date" name="inputExit" id="inputExit" class="form-control form-control-plaintext">
+                        </div>
+                    </div>
+                </form>
+                <hr>
+                <strong class="Detail-Locate">จำนวนวัน: </strong><span id="DetailDate" >- วัน</span><br>
+                <div class="row mb-3 justify-content-center" id="Warning">
+                    *** จองต่อเหนื่องได้ครั้งละ 3 วันเท่านั้น ***
+                </div>
+                <hr>
+                <h6 class="Progress-label">Progress :</h6>
+                <div class="progress">
+                    <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" id="progress2" role="progressbar" style="width: 25%;" aria-valuemin="0" aria-valuemax="100">25%</div>
+                  </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline-primary" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#BookingModal" id="NextStep1" >Back</button>
+              <button type="button" class="btn btn-outline-info disabled" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#BookingAccModal" id="NextStep3" >Next</button>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="modal  fade" id="BookingAccModal" tabindex="-1" aria-labelledby="BookingAccModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="BookingAccModalLabel">Booking : จองพื้นที่กางเต็นท์ออนไลน์</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <strong >ขั้นตอนที่ 3 : เลือกอุปกรณ์สำหรับกางเต้นท์และจำนวนคน</strong>
+                <hr>
+                <strong class="Detail-Locate">Camp: </strong><span id="DetailCamp2" ></span>
+                <hr>
+                <strong class="Detail-Locate">Zone: </strong><span id="DetailZones2"></span>
+                <hr>
+                <div class="accordion" id="accordionPeople">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingPeople">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePeople" aria-expanded="true" aria-controls="collapsePeople">
+                          จำนวนผู้เช่าพื้นที่
+                        </button>
+                      </h2>
+                      <div id="collapsePeople" class="accordion-collapse collapse" aria-labelledby="headingPeople" data-bs-parent="#accordionPeople">
+                        <div class="accordion-body">
+                            <div class="input-group mb-3">
+                                <span class="input-group-text col-3">ผู้ใหญ่</span>
+                                <input type="number" class="form-control col-2 InpAcc" min="0" value="0" aria-label="Amount" id="Adult">
+                                <span class="input-group-text col-7">คน | 30 บาท/คน/คืน</span>
+                            </div>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text col-3">เด็ก</span>
+                                <input type="number" class="form-control col-2 InpAcc" min="0" value="0" aria-label="Amount" id="Children">
+                                <span class="input-group-text col-7">คน | 10 บาท/คน/คืน</span>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="accordion" id="accordionCar">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingCar">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCar" aria-expanded="true" aria-controls="collapseCar">
+                            พื้นที่สำหรับจอดรถบ้าน
+                        </button>
+                      </h2>
+                      <div id="collapseCar" class="accordion-collapse collapse" aria-labelledby="headingCar" data-bs-parent="#accordionCar">
+                        <div class="accordion-body">
+                            <div class="accordion-body">
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text">ชนิดที่ไม่ลากจูง</span>
+                                    <input type="number" class="form-control col-2 InpAcc" min="0" value="0" aria-label="Amount" id="RV" disabled>
+                                    <span class="input-group-text">คัน | 300 บาท/คัน/คืน</span>
+                                </div>
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text">ชนิดที่ลากจูง</span>
+                                    <input type="number" class="form-control col-2 InpAcc" min="0" value="0" aria-label="Amount" id="RVS" disabled>
+                                    <span class="input-group-text">คัน | 600 บาท/คัน/คืน</span>
+                                </div>
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text ">ชนิดเต็นท์หลังคารถหรือที่มีลักษณะใกล้เคียง</span>
+                                    <input type="number" class="form-control InpAcc" min="0" value="0" aria-label="Amount" id="RVT" disabled>
+                                    <span class="input-group-text">คัน | 100 บาท/คัน/คืน</span>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="accordion" id="accordionTent">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTent">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTent" aria-expanded="true" aria-controls="collapseTent">
+                          เต้นท์
+                        </button>
+                      </h2>
+                      <div id="collapseTent" class="accordion-collapse collapse" aria-labelledby="headingTent" data-bs-parent="#accordionTent">
+                        <div class="accordion-body">
+                            <div class="input-group mb-3">
+                                <span class="input-group-text">เต็นท์ขนาด 3 คนนอน</span>
+                                <input type="number" class="form-control col-2 InpAcc" min="0" value="0" aria-label="Amount" id="Tent3">
+                                <span class="input-group-text">อัน | 225 บาท/คืน</span>
+                            </div>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text">เต็นท์ขนาด 2 คนนอน</span>
+                                <input type="number" class="form-control col-2 InpAcc" min="0" value="0" aria-label="Amount" id="Tent2">
+                                <span class="input-group-text">อัน | 150 บาท/คืน</span>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="accordion" id="accordionOther">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOther">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOther" aria-expanded="true" aria-controls="collapseOther">
+                            อุปกรณ์สำหรับกางเต็นท์
+                        </button>
+                      </h2>
+                      <div id="collapseOther" class="accordion-collapse collapse" aria-labelledby="headingOther" data-bs-parent="#accordionOther">
+                        <div class="accordion-body">
+                            <div class="input-group mb-3">
+                                <span class="input-group-text">ถุงนอน</span>
+                                <input type="number" class="form-control col-2 InpAcc" min="0" value="0" aria-label="Amount" id="Sleeping_Bag">
+                                <span class="input-group-text">อัน | 30 บาท/คืน</span>
+                            </div>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text">ผ้าห่ม</span>
+                                <input type="number" class="form-control col-2 InpAcc" min="0" value="0" aria-label="Amount" id="Blanket">
+                                <span class="input-group-text">อัน | 20 บาท/คืน</span>
+                            </div>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text">แผ่นรองนอน</span>
+                                <input type="number" class="form-control col-2 InpAcc" min="0" value="0" aria-label="Amount" id="Sleeping_Pad">
+                                <span class="input-group-text">อัน | 20 บาท/คืน</span>
+                            </div>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text">เสื่อ</span>
+                                <input type="number" class="form-control col-2 InpAcc" min="0" value="0" aria-label="Amount" id="Mat">
+                                <span class="input-group-text">อัน | 20 บาท/คืน</span>
+                            </div>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text">หมอน</span>
+                                <input type="number" class="form-control col-2 InpAcc" min="0" value="0" aria-label="Amount" id="Pillow">
+                                <span class="input-group-text">อัน | 10 บาท/คืน</span>
+                            </div>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text">ผ้าใบ</span>
+                                <input type="number" class="form-control col-2 InpAcc" min="0" value="0" aria-label="Amount" id="Canvas">
+                                <span class="input-group-text">อัน | 40 บาท/คืน</span>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <hr>
+                <strong class="Detail-Locate">ค่าธรรมเนียม: </strong><span id="DetailPrice"></span><span> บาท</span>
+                <hr>
+                <h6 class="Progress-label">Progress :</h6>
+                <div class="progress">
+                    <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" id="progress4" role="progressbar" style="width: 75%;" aria-valuemin="0" aria-valuemax="100">75%</div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline-primary" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#BookingDateModal" id="NextStep2" >Back</button>
+              <button type="button" class="btn btn-outline-info disabled" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#BookingOKModal" id="NextStepOK" >Next</button>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="modal  fade" id="BookingOKModal" tabindex="-1" aria-labelledby="BookingOKModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="BookingOKModalLabel">Booking : จองพื้นที่กางเต็นท์ออนไลน์</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <strong >ขั้นตอนที่ 4 : กรอกข้อมูลส่วนตัว</strong>
+                <hr>
+                <strong class="Detail-Locate">Camp: </strong><span id="DetailCamp3" ></span>
+                <hr>
+                <strong class="Detail-Locate">Zone: </strong><span id="DetailZones3"></span>
+                <hr>
+                <strong class="Detail-Locate">ค่าธรรมเนียม: </strong><span id="DetailPrice2"></span><span> บาท</span>
+                <hr>
+                <strong class="Detail-Locate">จำนวนวันที่จอง: </strong><span id="DetailDate2"></span><span> คืน</span>
+                <hr>
+                <strong class="Detail-Locate">ข้อมูลเพิ่มเติม: </strong>
+                <div class="mb-3 row">
+                    <label for="AddEmail" class="col-sm-2 col-form-label">อีเมล</label>
+                    <div class="col-sm-10">
+                      <input type="email" class="form-control impData" id="AddEmail">
+                    </div>
+                  </div>
+                  <div class="mb-3 row">
+                    <label for="AddTel" class="col-sm-2 col-form-label">เบอร์โทรศัพท์</label>
+                    <div class="col-sm-10">
+                      <input type="text" class="form-control impData" id="AddTel">
+                    </div>
+                </div>
+                <div class="row mb-3 justify-content-center" id="Warning2">
+                    *** ข้อมูลดังกล่าวจะใช้ในการตรวจสอบประวัติการจองได้ ***
+                </div>
+                <hr>
+                <h6 class="Progress-label">Progress :</h6>
+                <div class="progress">
+                    <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" id="progress5" role="progressbar" style="width: 90%;" aria-valuemin="0" aria-valuemax="100">90%</div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline-primary" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#BookingAccModal" id="NextStep2" >Back</button>
+              <button type="button" class="btn btn-outline-info disabled" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#BookingAddModal" id="NextStepAdd" >Next</button>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="modal  fade" id="BookingAddModal" tabindex="-1" aria-labelledby="BookingAddModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="BookingAddModalLabel">Booking : จองพื้นที่กางเต็นท์ออนไลน์</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <strong >ขั้นตอนที่ 5 : ตรวจสอบข้อมูล</strong>
+                <hr>
+                <strong class="Detail-Locate">Camp: </strong><span id="DetailCamp4" ></span>
+                <hr>
+                <strong class="Detail-Locate">Zone: </strong><span id="DetailZones4"></span>
+                <hr>
+                <strong class="Detail-Locate">ค่าธรรมเนียม: </strong><span id="DetailPrice3"></span><span> บาท</span>
+                <hr>
+                <strong class="Detail-Locate">วันเข้า: </strong><span id="DetailEnt"></span><br>
+                <strong class="Detail-Locate">วันออก: </strong><span id="DetailExt"></span><br>
+                <strong class="Detail-Locate">จำนวนวันที่จอง: </strong><span id="DetailDate3"></span><span> คืน</span>
+                <hr>
+                <strong class="Detail-Locate">ข้อมูลเพิ่มเติม: </strong><br>
+                <strong class="Detail-Locate ms-2">อีเมล: </strong><span id="DetailEmail"></span><br>
+                <strong class="Detail-Locate ms-2">เบอร์โทรศัพท์: </strong><span id="DetailTel"></span>
+                <hr>
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" id="CheckDefault">
+                    <label class="form-check-label" for="CheckDefault">ตรวจสอบข้อมูลถูกต้องและสมบูรณ์</label>
+                </div>
+                <hr>
+                <h6 class="Progress-label">Progress :</h6>
+                <div class="progress">
+                    <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" id="progress6" role="progressbar" style="width: 99%;" aria-valuemin="0" aria-valuemax="100">99%</div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline-primary" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#BookingOKModal" id="NextStep3" >Back</button>
+              <button type="button" class="btn btn-outline-info disabled" data-bs-dismiss="modal" id="NextAdd" >Book</button>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="modal  fade" id="HistoryModal" tabindex="-1" aria-labelledby="HistoryModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="HistoryModalLabel">History : ประวัติการจองลานกางเต้นท์</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <strong >ข้อมูลประวัติการจองลานกางเต้นท์</strong>
+                <hr>
+                <strong class="Detail-Locate">อีเมล: </strong><span id="HistoryEmail" ></span>
+                <hr>
+                <strong class="Detail-Locate">เบอร์โทรศัพท์: </strong><span id="HistoryTel"></span>
+                <hr> 
+                <strong class="Detail-Locate">ข้อมูลประวัติ: </strong>
+                <div class="contianer">
+                    <div class="row" id="Ticket"></div>
+                </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal" id="CloseHistory" >Close</button>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="modal  fade" id="Modal-Del" tabindex="-1" aria-labelledby="Modal-DelLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="Modal-DelLabel">Delete : ลบประวัติการจองลานกางเต้นท์</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <strong >ข้อมูลประวัติการจองลานกางเต้นท์ที่ต้องการลบ</strong>
+                <hr>
+                <strong class="Detail-Locate">รหัสการจอง: </strong><span id="Del_id" ></span>
+                <hr>
+                <strong class="Detail-Locate">อีเมล: </strong><span id="HistoryEmail2" ></span>
+                <hr>
+                <strong class="Detail-Locate">เบอร์โทรศัพท์: </strong><span id="HistoryTel2"></span>
+                <hr> 
+                <strong class="Detail-Locate">วันเข้า: </strong><span id="F2"></span>
+                <hr> 
+                <strong class="Detail-Locate">วันออก: </strong><span id="L2"></span>
+                <hr> 
+                <strong class="Detail-Locate">ราคา: </strong><span id="P2"></span>
+                <hr> 
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" id="CheckDel">
+                    <label class="form-check-label" for="CheckDel">ยินยอมลบข้อมูลประวัติการจองลานกางเต้นท์</label>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline-warning disabled" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#HistoryModal" id="DelHistory" >Delete</button>
+              <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#HistoryModal" id="CloseHistory" >Close</button>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="modal  fade" id="Modal-Info" tabindex="-1" aria-labelledby="Modal-InfoLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="Modal-InfoLabel">Detail : รายละเอียดจองพื้นที่กางเต็นท์ออนไลน์</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <strong class="Detail-Locate">รหัสการจอง: </strong><span id="Info_id" ></span>
+                <hr>
+                <strong class="Detail-Locate">สถานที่: </strong><span id="Info_locate" ></span>
+                <hr>
+                <strong class="Detail-Locate">โซน: </strong><span id="Info_zone"></span>
+                <hr>
+                <strong class="Detail-Locate">วันเข้า: </strong><span id="IF2"></span>
+                <hr>
+                <strong class="Detail-Locate">วันออก: </strong><span id="IL2"></span>
+                <hr>
+                <div class="accordion" id="accordionPeopleInfo">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingPeopleInfo">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePeopleInfo" aria-expanded="true" aria-controls="collapsePeopleInfo">
+                          จำนวนผู้เช่าพื้นที่
+                        </button>
+                      </h2>
+                      <div id="collapsePeopleInfo" class="accordion-collapse collapse" aria-labelledby="headingPeopleInfo" data-bs-parent="#accordionPeopleInfo">
+                        <div class="accordion-body">
+                            <div class="input-group mb-3">
+                                <span class="input-group-text col-3">ผู้ใหญ่</span>
+                                <input type="number" class="form-control col-2 InpAcc2" readonly min="0" value="0" aria-label="Amount" id="AdultInfo">
+                                <span class="input-group-text col-7">คน</span>
+                            </div>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text col-3">เด็ก</span>
+                                <input type="number" class="form-control col-2 InpAcc2" readonly min="0" value="0" aria-label="Amount" id="ChildrenInfo">
+                                <span class="input-group-text col-7">คน</span>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="accordion" id="accordionCarInfo">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingCarInfo">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCarInfo" aria-expanded="true" aria-controls="collapseCarInfo">
+                            พื้นที่สำหรับจอดรถบ้าน
+                        </button>
+                      </h2>
+                      <div id="collapseCarInfo" class="accordion-collapse collapse" aria-labelledby="headingCarInfo" data-bs-parent="#accordionCarInfo">
+                        <div class="accordion-body">
+                            <div class="accordion-body">
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text">ชนิดที่ไม่ลากจูง</span>
+                                    <input type="number" class="form-control col-2 InpAcc" min="0" value="0" aria-label="Amount" id="RVInfo" disabled>
+                                    <span class="input-group-text">คัน</span>
+                                </div>
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text">ชนิดที่ลากจูง</span>
+                                    <input type="number" class="form-control col-2 InpAcc" min="0" value="0" aria-label="Amount" id="RVSInfo" disabled>
+                                    <span class="input-group-text">คัน</span>
+                                </div>
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text ">ชนิดเต็นท์หลังคารถหรือที่มีลักษณะใกล้เคียง</span>
+                                    <input type="number" class="form-control InpAcc" min="0" value="0" aria-label="Amount" id="RVTInfo" disabled>
+                                    <span class="input-group-text">คัน</span>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="accordion" id="accordionTentInfo">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTentInfo">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTentInfo" aria-expanded="true" aria-controls="collapseTentInfo">
+                          เต้นท์
+                        </button>
+                      </h2>
+                      <div id="collapseTentInfo" class="accordion-collapse collapse" aria-labelledby="headingTentInfo" data-bs-parent="#accordionTentInfo">
+                        <div class="accordion-body">
+                            <div class="input-group mb-3">
+                                <span class="input-group-text">เต็นท์ขนาด 3 คนนอน</span>
+                                <input type="number" class="form-control col-2 InpAcc" readonly min="0" value="0" aria-label="Amount" id="Tent3Info">
+                                <span class="input-group-text">อัน</span>
+                            </div>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text">เต็นท์ขนาด 2 คนนอน</span>
+                                <input type="number" class="form-control col-2 InpAcc" readonly min="0" value="0" aria-label="Amount" id="Tent2Info">
+                                <span class="input-group-text">อัน</span>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="accordion" id="accordionOtherInfo">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOtherInfo">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOtherInfo" aria-expanded="true" aria-controls="collapseOtherInfo">
+                            อุปกรณ์สำหรับกางเต็นท์
+                        </button>
+                      </h2>
+                      <div id="collapseOtherInfo" class="accordion-collapse collapse" aria-labelledby="headingOtherInfo" data-bs-parent="#accordionOtherInfo">
+                        <div class="accordion-body">
+                            <div class="input-group mb-3">
+                                <span class="input-group-text">ถุงนอน</span>
+                                <input type="number" class="form-control col-2 InpAcc" readonly min="0" value="0" aria-label="Amount" id="Sleeping_BagInfo">
+                                <span class="input-group-text">อัน</span>
+                            </div>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text">ผ้าห่ม</span>
+                                <input type="number" class="form-control col-2 InpAcc" readonly min="0" value="0" aria-label="Amount" id="BlanketInfo">
+                                <span class="input-group-text">อัน</span>
+                            </div>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text">แผ่นรองนอน</span>
+                                <input type="number" class="form-control col-2 InpAcc" readonly min="0" value="0" aria-label="Amount" id="Sleeping_PadInfo">
+                                <span class="input-group-text">อัน</span>
+                            </div>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text">เสื่อ</span>
+                                <input type="number" class="form-control col-2 InpAcc" readonly min="0" value="0" aria-label="Amount" id="MatInfo">
+                                <span class="input-group-text">อัน</span>
+                            </div>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text">หมอน</span>
+                                <input type="number" class="form-control col-2 InpAcc" readonly min="0" value="0" aria-label="Amount" id="PillowInfo">
+                                <span class="input-group-text">อัน</span>
+                            </div>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text">ผ้าใบ</span>
+                                <input type="number" class="form-control col-2 InpAcc" readonly min="0" value="0" aria-label="Amount" id="CanvasInfo">
+                                <span class="input-group-text">อัน</span>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <hr>
+                <strong class="Detail-Locate">ค่าธรรมเนียม: </strong><span id="IP2"></span><span> บาท</span>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline-primary" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#HistoryModal" id="Back2" >Back</button>
+              <button type="button" class="btn btn-outline-info" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#Modal-Edit" id="ToEdit2" >Edit</button>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="modal  fade" id="Modal-Edit" tabindex="-1" aria-labelledby="Modal-EditLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="Modal-EditLabel">Update : แก้ไขรายละเอียดจองพื้นที่กางเต็นท์ออนไลน์</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <strong class="Detail-Locate">รหัสการจอง: </strong><span id="Edit_id" ></span>
+                <hr>
+                <strong class="Detail-Locate">สถานที่: </strong><span id="Edit_locate" ></span>
+                <hr>
+                <strong class="Detail-Locate">โซน: </strong><span id="Edit_zone"></span>
+                <hr>
+                <form>
+                  <div class="row mb-3">
+                      <label for="EditEntry" class="col-sm-2 col-form-label">วันเข้าใช้บริการ :</label>
+                      <div class="col-sm-10">
+                          <input type="date" name="EditEntry" id="EditEntry" class="form-control EditVal">
+                      </div>
+                  </div>
+                  <div class="row mb-3" id="formExit">
+                      <label for="EditExit" class="col-sm-2 col-form-label">วันออก :</label>
+                      <div class="col-sm-10">
+                          <input type="date" name="EditExit" id="EditExit" class="form-control EditVal">
+                      </div>
+                  </div>
+                </form>
+                <div class="accordion" id="accordionPeopleEdit">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingPeopleEdit">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePeopleEdit" aria-expanded="true" aria-controls="collapsePeopleEdit">
+                          จำนวนผู้เช่าพื้นที่
+                        </button>
+                      </h2>
+                      <div id="collapsePeopleEdit" class="accordion-collapse collapse" aria-labelledby="headingPeopleEdit" data-bs-parent="#accordionPeopleEdit">
+                        <div class="accordion-body">
+                            <div class="input-group mb-3">
+                                <span class="input-group-text col-3">ผู้ใหญ่</span>
+                                <input type="number" class="form-control col-2 EditVal"  min="0" aria-label="Amount" id="AdultEdit">
+                                <span class="input-group-text col-7">คน | 30 บาท/คน/คืน</span>
+                            </div>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text col-3">เด็ก</span>
+                                <input type="number" class="form-control col-2 EditVal" rmin="0" aria-label="Amount" id="ChildrenEdit">
+                                <span class="input-group-text col-7">คน | 10 บาท/คน/คืน</span>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="accordion" id="accordionCarEdit">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingCarEdit">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCarEdit" aria-expanded="true" aria-controls="collapseCarEdit">
+                            พื้นที่สำหรับจอดรถบ้าน
+                        </button>
+                      </h2>
+                      <div id="collapseCarEdit" class="accordion-collapse collapse" aria-labelledby="headingCarEdit" data-bs-parent="#accordionCarEdit">
+                        <div class="accordion-body">
+                            <div class="accordion-body">
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text">ชนิดที่ไม่ลากจูง</span>
+                                    <input type="number" class="form-control col-2 EditVal" min="0" value="0" aria-label="Amount" id="RVEdit" disabled>
+                                    <span class="input-group-text">คัน | 300 บาท/คัน/คืน</span>
+                                </div>
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text">ชนิดที่ลากจูง</span>
+                                    <input type="number" class="form-control col-2 EditVal" min="0" value="0" aria-label="Amount" id="RVSEdit" disabled>
+                                    <span class="input-group-text">คัน | 600 บาท/คัน/คืน</span>
+                                </div>
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text ">ชนิดเต็นท์หลังคารถหรือที่มีลักษณะใกล้เคียง</span>
+                                    <input type="number" class="form-control EditVal" min="0" value="0" aria-label="Amount" id="RVTEdit" disabled>
+                                    <span class="input-group-text">คัน | 100 บาท/คัน/คืน</span>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="accordion" id="accordionTentEdit">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTentEdit">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTentEdit" aria-expanded="true" aria-controls="collapseTentEdit">
+                          เต้นท์
+                        </button>
+                      </h2>
+                      <div id="collapseTentEdit" class="accordion-collapse collapse" aria-labelledby="headingTentEdit" data-bs-parent="#accordionTentEdit">
+                        <div class="accordion-body">
+                            <div class="input-group mb-3">
+                                <span class="input-group-text">เต็นท์ขนาด 3 คนนอน</span>
+                                <input type="number" class="form-control col-2 EditVal" min="0" value="0" aria-label="Amount" id="Tent3Edit">
+                                <span class="input-group-text">อัน | 225 บาท/คืน</span>
+                            </div>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text">เต็นท์ขนาด 2 คนนอน</span>
+                                <input type="number" class="form-control col-2 EditVal" min="0" value="0" aria-label="Amount" id="Tent2Edit">
+                                <span class="input-group-text">อัน | 150 บาท/คืน</span>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="accordion" id="accordionOtherEdit">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOtherEdit">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOtherEdit" aria-expanded="true" aria-controls="collapseOtherEdit">
+                            อุปกรณ์สำหรับกางเต็นท์
+                        </button>
+                      </h2>
+                      <div id="collapseOtherEdit" class="accordion-collapse collapse" aria-labelledby="headingOtherEdit" data-bs-parent="#accordionOtherEdit">
+                        <div class="accordion-body">
+                            <div class="input-group mb-3">
+                                <span class="input-group-text">ถุงนอน</span>
+                                <input type="number" class="form-control col-2 EditVal" min="0" value="0" aria-label="Amount" id="Sleeping_BagEdit">
+                                <span class="input-group-text">อัน | 30 บาท/คืน</span>
+                            </div>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text">ผ้าห่ม</span>
+                                <input type="number" class="form-control col-2 EditVal" min="0" value="0" aria-label="Amount" id="BlanketEdit">
+                                <span class="input-group-text">อัน | 20 บาท/คืน</span>
+                            </div>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text">แผ่นรองนอน</span>
+                                <input type="number" class="form-control col-2 EditVal" min="0" value="0" aria-label="Amount" id="Sleeping_PadEdit">
+                                <span class="input-group-text">อัน | 20 บาท/คืน</span>
+                            </div>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text">เสื่อ</span>
+                                <input type="number" class="form-control col-2 EditVal" min="0" value="0" aria-label="Amount" id="MatEdit">
+                                <span class="input-group-text">อัน | 20 บาท/คืน</span>
+                            </div>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text">หมอน</span>
+                                <input type="number" class="form-control col-2 EditVal" min="0" value="0" aria-label="Amount" id="PillowEdit">
+                                <span class="input-group-text">อัน | 10 บาท/คืน</span>
+                            </div>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text">ผ้าใบ</span>
+                                <input type="number" class="form-control col-2 EditVal" min="0" value="0" aria-label="Amount" id="CanvasEdit">
+                                <span class="input-group-text">อัน | 40 บาท/คืน</span>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <hr>
+                <strong class="Detail-Locate">ค่าธรรมเนียม: </strong><span id="IP3"></span><span> บาท</span>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline-info" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#HistoryModal" id="Back3" >Back</button>
+              <button type="button" class="btn btn-outline-success disabled" data-bs-dismiss="modal" id="ToSave" >Save</button>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+        <div id="liveToastAdd" class="toast hide fade" role="alert" aria-live="assertive" aria-atomic="true" data-bs-autohide="false">
+          <div class="toast-header">
+            <strong class="me-auto">LongTent</strong>
+            <button type="button" class="btn-close btn-light" data-bs-dismiss="toast" aria-label="Close"></button>
+          </div>
+          <div class="toast-body bg-success text-light">
+            ขณะท่านได้ทำการจองลานกางเต้นท์สำเร็จ โปรดเช็คข้อมูลประวัติได้ด้วย อีเมล และ เบอร์โทรศัพท์ที่ทำการจองไว้
+          </div>
+        </div>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="LongTent.css">
+    <script src="LongTent.js"></script>
+</body>
+</html>
