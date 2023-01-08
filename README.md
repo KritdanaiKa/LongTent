@@ -63,9 +63,9 @@ Requirements มาจากสมาชิกภายในกลุ่ม [�
 ![Home - Computure](https://github.com/KritdanaiKa/LongTent/blob/main/LongTentPictue/R2.png)
 ![Home - Computure](https://github.com/KritdanaiKa/LongTent/blob/main/LongTentPictue/R3.png)
 # CRUD:U Update 
-
+![Home - Computure](https://github.com/KritdanaiKa/LongTent/blob/main/LongTentPictue/E-1.PNG)
 # CRUD:D Delete
-
+![Home - Computure](https://github.com/KritdanaiKa/LongTent/blob/main/LongTentPictue/D-1.PNG)
 # Responsive Website Design
 เราสามารถแบ่งการรองรับ Responsive ได้ 3 รูปแบบ ได้แก่<br />
 1. รูปแบบ Computer ![Home - Computure](https://github.com/KritdanaiKa/LongTent/blob/main/LongTentPictue/Home%20-%20Computer.PNG)
